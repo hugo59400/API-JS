@@ -1,0 +1,29 @@
+{
+  "name": "demo-express-api",
+  "version": "0.0.0",
+  "description": "Api REST avec ExpressJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node ."
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Express",
+    "Node"
+  ],
+  "author": "Benoît Routier",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
